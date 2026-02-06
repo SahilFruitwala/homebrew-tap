@@ -5,7 +5,7 @@ class RetroArcade < Formula
   sha256 "225ef0677b1bf063ec5d521334d48d5e0d932c04faeeaf0090d2b2b682908ee4"
   license "MIT"
 
-  depends_on "bun" => :build
+  depends_on "oven-sh/bun/bun" => :build
 
   def install
     system "bun", "install"
