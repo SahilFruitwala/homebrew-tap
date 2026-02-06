@@ -1,8 +1,8 @@
 class RetroArcade < Formula
   desc "Terminal-based arcade collection (Space Invaders, Snake)"
   homepage "https://github.com/SahilFruitwala/retro-arcade"
-  url "https://github.com/SahilFruitwala/retro-arcade/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "225ef0677b1bf063ec5d521334d48d5e0d932c04faeeaf0090d2b2b682908ee4"
+  url "https://github.com/SahilFruitwala/retro-arcade/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "e63c190ed108bfe080b51bc45fbf7771cd8debcf754b4e0ff11f71354b4a6b55"
   license "MIT"
 
   depends_on "oven-sh/bun/bun" => :build
